@@ -1,0 +1,118 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    font-size: 20px;
+    color: aliceblue;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../image/banner.png');
+}
+
+button {
+    font-size: large;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    color: #31A8DD;
+    height: 50px;
+    width: 60%;
+}
+
+footer{
+    height: 200px;
+    background: -webkit-linear-gradient(#000000, hsla(205, 64%, 48%, 0.322));
+}
+
+footer a{
+    color: #31A8DD;
+    text-decoration: none;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+H2 {
+    color: #31A8DD;
+    letter-spacing: 4px;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    padding: 60px;
+}
+
+hr {
+    width: 100%;
+    border-color: #31A8DD;
+}
+
+.logo-circle {
+    margin: 20px;
+    width: 270px;
+    height: 270px;
+    border-radius: 100%;
+    background-color: #00000050;
+}
+
+.transform-world {
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+    background-size: cover;
+    background-image: url("../image/woman-code.png");
+    background-attachment: fixed;
+}
+
+.transform-world h2 {
+    padding-left: 180px;
+    width: 19%;
+    text-align: left;
+    color: white;
+    text-shadow: #1472B7 3px 3px;
+}
+
+
+.text-banner-box {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 550px;
+}
+
+.module {
+    height: 55px;
+    width: 550px;
+    border: 1px solid #31A8DD;
+    border-radius: 30px;
+    background-color: rgb(31, 31, 31);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    margin-top: 25px;
+}
+
+.module span {
+    color: #31A8DD;
+}
